@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 android {
     namespace 'com.rebeloid.unity_ads'
 
-    compileSdk 35
+    compileSdk 37
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -32,7 +32,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 24
     }
 
     dependencies {
